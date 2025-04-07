@@ -101,7 +101,7 @@ public static void main(String[] args) {
                         for (int j = 0; j < indiceCarrito; j++) {
                             System.out.println("Entrada " + (j + 1) + ":");
                             System.out.println("  Zona: " + carrito[j][0]);
-                            System.out.println("  Precio base: $" + carrito[j][1]);
+                            System.out.println("  Precio Zona: $" + carrito[j][1]);
                             System.out.println("  Descuento: " + carrito[j][2]);
                             System.out.println("  Precio final: $" + carrito[j][3]);
                             totalPagar += Double.parseDouble(carrito[j][3]);
