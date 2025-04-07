@@ -10,7 +10,7 @@ El menú principal incluye tres opciones:
 # Carrito de compras implementado
 Se creó una matriz de 100 filas y 4 columnas para almacenar:
 Zona seleccionada
-Precio base
+Precio zona
 Descuento aplicado
 Precio final
 
@@ -19,7 +19,7 @@ Las zonas disponibles están personalizadas por precio.
 
 A. Premium (12.000 > Precio Base + 2.000)
 B. Media (Precio Base: 10.000)
-C. Baja (8.000 > Precio Base + 2.000)
+C. Baja (8.000 > Precio Base - 2.000)
 
 Se validan entradas inválidas y edades fuera de rango (menor a 0 o mayor a 120).
 
@@ -30,7 +30,7 @@ Se validan entradas inválidas y edades fuera de rango (menor a 0 o mayor a 120)
 
 # Detalle inmediato tras agregar entrada
 * Luego de agregar una entrada al carrito, se muestra al usuario:
-Precio base de la zona
+Precio zona
 Descuento aplicado
 Precio final de la entrada Ejemplo de salida:
 
